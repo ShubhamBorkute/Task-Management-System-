@@ -1,0 +1,6 @@
+package com.taskmanagmentsystem.server.DTO;
+
+public interface TaskDTO {
+
+	
+}

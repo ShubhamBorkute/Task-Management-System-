@@ -1,0 +1,40 @@
+package com.taskmanagmentsystem.server.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.taskmanagmentsystem.server.entity.TaskEntity;
+import com.taskmanagmentsystem.server.repository.TaskRepository;
+@Service
+public class TaskServiceImpl implements TaskService {
+	
+	@Autowired
+	private TaskRepository taskRepo;
+
+	@Override
+	public List<TaskEntity> getAllTask() {
+		
+		return taskRepo.findAll();
+	}
+
+	@Override
+	public Integer addtask(TaskEntity taskEntity) {
+		
+		return taskRepo.save(taskEntity).getTaskId();
+	}
+
+	@Override
+	public TaskEntity getTaskById(Integer taskId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Integer deleteTask(Integer taskId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

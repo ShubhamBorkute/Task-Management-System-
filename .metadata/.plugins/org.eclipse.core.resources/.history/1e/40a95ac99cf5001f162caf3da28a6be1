@@ -1,0 +1,5 @@
+package com.taskmanagmentsystem.server.repository;
+
+public interface TaskRepository {
+
+}
