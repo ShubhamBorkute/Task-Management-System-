@@ -64,17 +64,17 @@ mvn spring-boot:run
 ```
 ## Frontend Setup (React - Port 3000)
 - Navigate to frontend directory
-  ```
-  cd ../frontend
-  ```
-  - Install dependencies
-    ```
-    npm install
-    ```
-    - Start the frontend
-    ```
-    npm start
-   ```
+```
+ cd ../frontend
+```
+- Install dependencies
+```
+npm install
+```
+- Start the frontend
+```
+npm start
+```
 
 ## 🔗 API Endpoints
 ```
@@ -89,9 +89,9 @@ mvn spring-boot:run
 ## 📜 Contribution Guidelines
 - Fork the Repository
 - Create a Feature Branch
-  ```
-  git checkout -b feature-branch
-  ```
+```
+git checkout -b feature-branch
+```
 ### Commit Changes
 ```
 git commit -m "Added new feature"
